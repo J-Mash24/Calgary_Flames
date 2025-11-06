@@ -23,6 +23,25 @@
     a { text-decoration: none; color: #ff0000ff; }
 
     a:hover { text-decoration: underline; }
+       .gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.gallery img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
 </style>
 </head>
 <body>
@@ -38,8 +57,14 @@
         <li><a href="Calgary_wl.html" target="_blank">Calgary W&L Animation</a></li>
         <!-- Add more charts here -->
     </ul>
+    <div class="gallery">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Theoren_Fleury_stickhandles.png/800px-Theoren_Fleury_stickhandles.png" alt="Flames Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Kiprusoff_make_a_save.jpg/1024px-Kiprusoff_make_a_save.jpg" alt="Alternate Logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Att_snv%C3%A4nda_materialet_i_ishockeyklubban_som_%C3%A4r_gjord_av_Carbon_%C3%A4r_viktigt_f%C3%B6r_att_%C3%B6ka_hastigheten_i_skottet.jpg" alt="Saddledome Arena">
+</div>
 </body>
 </html>
+
 
 
 
